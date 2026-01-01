@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGFP.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11748fa8165ad7026bd531acf07d15e277d6f897")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGFP.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGFP.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

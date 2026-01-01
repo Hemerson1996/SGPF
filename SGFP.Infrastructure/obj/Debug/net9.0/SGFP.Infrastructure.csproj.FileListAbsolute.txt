@@ -15,3 +15,4 @@ C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Infrastructure\obj\Debug\net9.
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Infrastructure\obj\Debug\net9.0\SGFP.Infrastructure.pdb
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Infrastructure\obj\Debug\net9.0\SGFP.Infrastructure.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Infrastructure\obj\Debug\net9.0\ref\SGFP.Infrastructure.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Infrastructure\obj\Debug\net9.0\SGFP.Infrastructure.sourcelink.json

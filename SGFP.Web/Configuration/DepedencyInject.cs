@@ -25,12 +25,14 @@ namespace SGFP.Web.Configuration
             services.AddScoped<ITB004_Tipo_Origem_DinheiroRepository,TB004_Tipo_Origem_DinheiroRepository>();
             services.AddScoped<ITB005_RecebimentoRepository,TB005_RecebimentoRepository>();
             services.AddScoped<ITB006_FrequenciaRepository,TB006_FrequenciaRepository>();
+            services.AddScoped<ITB007_ReceitaRepository,TB007_ReceitaRepository>();
 
             //Services
             services.AddScoped<ITB003_Categoria_ReceitaServices,TB003_Categoria_ReceitaServices>();
             services.AddScoped<ITB004_Tipo_Origem_DinheiroService, TB004_Tipo_Origem_DinheiroService>();
             services.AddScoped<ITB005_RecebimentoService, TB005_RecebimentoService>();
             services.AddScoped<ITB006_FrequenciaService, TB006_FrequenciaService>();
+            services.AddScoped<ITB007_ReceitaService, TB007_ReceitaService>();
 
 
 

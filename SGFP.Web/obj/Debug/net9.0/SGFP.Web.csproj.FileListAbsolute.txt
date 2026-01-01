@@ -178,3 +178,4 @@ C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Web\obj\Debug\net9.0\refint\SG
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Web\obj\Debug\net9.0\SGFP.Web.pdb
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Web\obj\Debug\net9.0\SGFP.Web.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Web\obj\Debug\net9.0\ref\SGFP.Web.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Web\obj\Debug\net9.0\SGFP.Web.sourcelink.json

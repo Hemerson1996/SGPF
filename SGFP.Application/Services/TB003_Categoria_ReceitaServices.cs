@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
 using SGFP.Application.DTOs.Request;
 using SGFP.Application.DTOs.Response;
 using SGFP.Application.Interfaces;
@@ -72,7 +71,7 @@ namespace SGFP.Application.Services
 
             _mapper.Map(categoria,categoriaReceita);
 
-            _categoria_ReceitaRepository.UpdateAsync(categoriaReceita);
+            await _categoria_ReceitaRepository.UpdateAsync(categoriaReceita);
 
             return _mapper.Map<TB003_Categoria_ReceitaResponseDtos>(categoriaReceita);
         }

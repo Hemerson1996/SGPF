@@ -10,7 +10,7 @@ namespace SGFP.Application.DTOs.Request
     {
         public int receita_Id { get; set; }
         public int usuario_Id { get; set; }
-        public int categoriaReceita_Id { get; set; }
+        public int categoriaReceita_Id { get; set; } = 1;
         public int recebimento_Id { get; set; }
         public int frequencia_Id { get; set; }
         public double receita_Valor { get; set; }

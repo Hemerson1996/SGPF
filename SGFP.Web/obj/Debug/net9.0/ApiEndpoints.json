@@ -237,6 +237,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SGFP.Web.Controllers.v1.ReceitaController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Receita",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.ReceitaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Receita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB007_ReceitaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.ReceitaController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Receita/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.ReceitaController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Receita/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB007_ReceitaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.ReceitaController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Receita/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SGFP.Web.Controllers.v1.Tipo_Origem_DinheiroController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Tipo_Origem_Dinheiro",
