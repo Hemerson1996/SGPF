@@ -9,3 +9,4 @@ C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Domain\obj\Debug\net9.0\SGFP.D
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Domain\obj\Debug\net9.0\refint\SGFP.Domain.dll
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Domain\obj\Debug\net9.0\SGFP.Domain.pdb
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Domain\obj\Debug\net9.0\ref\SGFP.Domain.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Domain\obj\Debug\net9.0\SGFP.Domain.sourcelink.json

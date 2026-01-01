@@ -54,7 +54,7 @@ namespace SGFP.Application.Services
             return _mapper.Map<TB004_Tipo_Origem_DinheiroResponseDto>(tipo);
         }
 
-        public async Task<TB004_Tipo_Origem_DinheiroResponseDto?> Update(int id, TB004_Tipo_Origem_DinheiroRequestDto request)
+        public async Task<TB004_Tipo_Origem_DinheiroResponseDto> Update(int id, TB004_Tipo_Origem_DinheiroRequestDto request)
         {
             var tipo = await _Tipo_Origem_DinheiroRepository.GetByIdAsync(id);
             if (tipo == null)

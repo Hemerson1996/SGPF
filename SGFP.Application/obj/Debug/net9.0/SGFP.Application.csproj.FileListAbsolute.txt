@@ -13,3 +13,4 @@ C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\S
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\refint\SGFP.Application.dll
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.pdb
 C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\ref\SGFP.Application.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.sourcelink.json

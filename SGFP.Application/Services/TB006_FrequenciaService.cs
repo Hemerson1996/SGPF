@@ -69,7 +69,7 @@ namespace SGFP.Application.Services
 
             _mapper.Map(frequecia, frequencia);
 
-            _frequenciaRepository.UpdateAsync(frequencia);
+            await _frequenciaRepository.UpdateAsync(frequencia);
 
             return _mapper.Map<TB006_FrequenciaResponseDto>(frequencia);
         }
