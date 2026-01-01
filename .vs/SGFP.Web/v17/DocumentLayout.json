@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\services\\tb003_categoria_receitaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\services\\tb003_categoria_receitaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\services\\tb007_receitaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\services\\tb007_receitaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\services\\tb006_frequenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\services\\tb006_frequenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19F092A-C262-45C4-A471-832800678709}|SGFP.Domain\\SGFP.Domain.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.domain\\entities\\tb003_categoria_receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19F092A-C262-45C4-A471-832800678709}|SGFP.Domain\\SGFP.Domain.csproj|solutionrelative:sgfp.domain\\entities\\tb003_categoria_receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19F092A-C262-45C4-A471-832800678709}|SGFP.Domain\\SGFP.Domain.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.domain\\entities\\tb007_receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19F092A-C262-45C4-A471-832800678709}|SGFP.Domain\\SGFP.Domain.csproj|solutionrelative:sgfp.domain\\entities\\tb007_receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\services\\tb004_tipo_origem_dinheiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\services\\tb004_tipo_origem_dinheiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4221D6-A7E1-441C-A9C5-F250C7403B41}|SGFP.Web\\SGFP.Web.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.web\\controllers\\v1\\receitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4221D6-A7E1-441C-A9C5-F250C7403B41}|SGFP.Web\\SGFP.Web.csproj|solutionrelative:sgfp.web\\controllers\\v1\\receitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4221D6-A7E1-441C-A9C5-F250C7403B41}|SGFP.Web\\SGFP.Web.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.web\\controllers\\v1\\categoria_receitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4221D6-A7E1-441C-A9C5-F250C7403B41}|SGFP.Web\\SGFP.Web.csproj|solutionrelative:sgfp.web\\controllers\\v1\\categoria_receitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\validators\\tb003_categoria_receitarequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\validators\\tb003_categoria_receitarequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\mappings\\domainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\mappings\\domainprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\interfaces\\itb003_categoria_receitaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\interfaces\\itb003_categoria_receitaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E4221D6-A7E1-441C-A9C5-F250C7403B41}|SGFP.Web\\SGFP.Web.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.web\\configuration\\depedencyinject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E4221D6-A7E1-441C-A9C5-F250C7403B41}|SGFP.Web\\SGFP.Web.csproj|solutionrelative:sgfp.web\\configuration\\depedencyinject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\interfaces\\itb007_receitaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\interfaces\\itb007_receitaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\dtos\\request\\tb007_receitarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\dtos\\request\\tb007_receitarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A646FB04-BD30-4335-A80B-A810F9E80EED}|SGFP.Infrastructure\\SGFP.Infrastructure.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.infrastructure\\repository\\tb007_receitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A646FB04-BD30-4335-A80B-A810F9E80EED}|SGFP.Infrastructure\\SGFP.Infrastructure.csproj|solutionrelative:sgfp.infrastructure\\repository\\tb007_receitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.application\\dtos\\response\\tb007_receitaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16D967B-C697-4A01-AB65-E7D0F9F50521}|SGFP.Application\\SGFP.Application.csproj|solutionrelative:sgfp.application\\dtos\\response\\tb007_receitaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19F092A-C262-45C4-A471-832800678709}|SGFP.Domain\\SGFP.Domain.csproj|c:\\users\\administrator\\desktop\\sgfp\\sgfp.web\\sgfp.domain\\interfaces\\itb007_receitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19F092A-C262-45C4-A471-832800678709}|SGFP.Domain\\SGFP.Domain.csproj|solutionrelative:sgfp.domain\\interfaces\\itb007_receitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITB003_Categoria_ReceitaServices.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Interfaces\\ITB003_Categoria_ReceitaServices.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Interfaces\\ITB003_Categoria_ReceitaServices.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Interfaces\\ITB003_Categoria_ReceitaServices.cs",
+              "RelativeToolTip": "SGFP.Application\\Interfaces\\ITB003_Categoria_ReceitaServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T13:44:01.849Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TB003_Categoria_ReceitaServices.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB003_Categoria_ReceitaServices.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Services\\TB003_Categoria_ReceitaServices.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB003_Categoria_ReceitaServices.cs",
+              "RelativeToolTip": "SGFP.Application\\Services\\TB003_Categoria_ReceitaServices.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA2wEQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T13:45:32.596Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DomainProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Mappings\\DomainProfile.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Mappings\\DomainProfile.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Mappings\\DomainProfile.cs",
+              "RelativeToolTip": "SGFP.Application\\Mappings\\DomainProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T16:53:37.924Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TB003_Categoria_ReceitaRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Validators\\TB003_Categoria_ReceitaRequestValidator.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Validators\\TB003_Categoria_ReceitaRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Validators\\TB003_Categoria_ReceitaRequestValidator.cs",
+              "RelativeToolTip": "SGFP.Application\\Validators\\TB003_Categoria_ReceitaRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T16:27:31.392Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Categoria_ReceitaController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Web\\Controllers\\v1\\Categoria_ReceitaController.cs",
+              "RelativeDocumentMoniker": "SGFP.Web\\Controllers\\v1\\Categoria_ReceitaController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Web\\Controllers\\v1\\Categoria_ReceitaController.cs",
+              "RelativeToolTip": "SGFP.Web\\Controllers\\v1\\Categoria_ReceitaController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T13:52:15.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepedencyInject.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Web\\Configuration\\DepedencyInject.cs",
+              "RelativeDocumentMoniker": "SGFP.Web\\Configuration\\DepedencyInject.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Web\\Configuration\\DepedencyInject.cs",
+              "RelativeToolTip": "SGFP.Web\\Configuration\\DepedencyInject.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T13:46:41.675Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TB003_Categoria_Receita.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Domain\\Entities\\TB003_Categoria_Receita.cs",
+              "RelativeDocumentMoniker": "SGFP.Domain\\Entities\\TB003_Categoria_Receita.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Domain\\Entities\\TB003_Categoria_Receita.cs*",
+              "RelativeToolTip": "SGFP.Domain\\Entities\\TB003_Categoria_Receita.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T02:28:58.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TB006_FrequenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB006_FrequenciaService.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Services\\TB006_FrequenciaService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB006_FrequenciaService.cs*",
+              "RelativeToolTip": "SGFP.Application\\Services\\TB006_FrequenciaService.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T02:38:59.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TB007_Receita.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Domain\\Entities\\TB007_Receita.cs",
+              "RelativeDocumentMoniker": "SGFP.Domain\\Entities\\TB007_Receita.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Domain\\Entities\\TB007_Receita.cs*",
+              "RelativeToolTip": "SGFP.Domain\\Entities\\TB007_Receita.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T02:27:33.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TB004_Tipo_Origem_DinheiroService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB004_Tipo_Origem_DinheiroService.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Services\\TB004_Tipo_Origem_DinheiroService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB004_Tipo_Origem_DinheiroService.cs*",
+              "RelativeToolTip": "SGFP.Application\\Services\\TB004_Tipo_Origem_DinheiroService.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wCQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T02:37:53.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReceitaController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Web\\Controllers\\v1\\ReceitaController.cs",
+              "RelativeDocumentMoniker": "SGFP.Web\\Controllers\\v1\\ReceitaController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Web\\Controllers\\v1\\ReceitaController.cs",
+              "RelativeToolTip": "SGFP.Web\\Controllers\\v1\\ReceitaController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:51:08.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TB007_ReceitaService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB007_ReceitaService.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Services\\TB007_ReceitaService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Services\\TB007_ReceitaService.cs*",
+              "RelativeToolTip": "SGFP.Application\\Services\\TB007_ReceitaService.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwEgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:40:53.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TB007_ReceitaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\DTOs\\Response\\TB007_ReceitaResponseDto.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\DTOs\\Response\\TB007_ReceitaResponseDto.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\DTOs\\Response\\TB007_ReceitaResponseDto.cs",
+              "RelativeToolTip": "SGFP.Application\\DTOs\\Response\\TB007_ReceitaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:33:38.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TB007_ReceitaRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\DTOs\\Request\\TB007_ReceitaRequestDto.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\DTOs\\Request\\TB007_ReceitaRequestDto.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\DTOs\\Request\\TB007_ReceitaRequestDto.cs",
+              "RelativeToolTip": "SGFP.Application\\DTOs\\Request\\TB007_ReceitaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:43:20.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITB007_ReceitaService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Interfaces\\ITB007_ReceitaService.cs",
+              "RelativeDocumentMoniker": "SGFP.Application\\Interfaces\\ITB007_ReceitaService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Application\\Interfaces\\ITB007_ReceitaService.cs",
+              "RelativeToolTip": "SGFP.Application\\Interfaces\\ITB007_ReceitaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:40:15.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TB007_ReceitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Infrastructure\\Repository\\TB007_ReceitaRepository.cs",
+              "RelativeDocumentMoniker": "SGFP.Infrastructure\\Repository\\TB007_ReceitaRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Infrastructure\\Repository\\TB007_ReceitaRepository.cs",
+              "RelativeToolTip": "SGFP.Infrastructure\\Repository\\TB007_ReceitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:35:25.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITB007_ReceitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Domain\\Interfaces\\ITB007_ReceitaRepository.cs",
+              "RelativeDocumentMoniker": "SGFP.Domain\\Interfaces\\ITB007_ReceitaRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SGFP\\SGFP.Web\\SGFP.Domain\\Interfaces\\ITB007_ReceitaRepository.cs",
+              "RelativeToolTip": "SGFP.Domain\\Interfaces\\ITB007_ReceitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:34:41.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

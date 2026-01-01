@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\bin\Debug\net9.0\SGFP.Application.deps.json
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\bin\Debug\net9.0\SGFP.Application.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\bin\Debug\net9.0\SGFP.Application.pdb
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\bin\Debug\net9.0\SGFP.Domain.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\bin\Debug\net9.0\SGFP.Domain.pdb
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.App.A70355FD.Up2Date
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\refint\SGFP.Application.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.pdb
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\ref\SGFP.Application.dll
+C:\Users\Administrator\Desktop\SGFP\SGFP.Web\SGFP.Application\obj\Debug\net9.0\SGFP.Application.sourcelink.json
