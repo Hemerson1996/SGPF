@@ -16,6 +16,7 @@ namespace SGFP.Infrastructure.Context
         }
 
 
+        public DbSet<TB001_Usuario> TB001_Usuarios { get; set; }
         public DbSet<TB003_Categoria_Receita> TB003_Categoria_Receitas { get; set; }
         public DbSet<TB004_Tipo_Origem_Dinheiro> TB004_Tipo_Origem_Dinheiros { get; set; }
         public DbSet<TB005_Recebimento> TB005_Recebimentos { get; set; }
@@ -28,6 +29,7 @@ namespace SGFP.Infrastructure.Context
         public DbSet<TB012_Unidade_Produto_Compra> TB012_Unidade_Produto_Compras { get; set; }
         public DbSet<TB013_Item_Produto_Compra> TB013_Item_Produto_Compras { get; set; }
         public DbSet<TB014_Item_Compra> TB014_Item_Compras { get; set; }
+        public DbSet<TB015_Status_Pagamentos> TB015_Status_Pagamentos { get; set; }
 
 
 

@@ -14,6 +14,8 @@ namespace SGFP.Domain.Entities
         public string tipo_Nome { get; set; }
         public string tipo_Descricao { get; set; }
 
+        public virtual ICollection<TB007_Receita> TB007_Receitas { get; set; }
+
 
     }
 }

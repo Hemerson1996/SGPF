@@ -13,5 +13,6 @@ namespace SGFP.Domain.Entities
         public string frequencia_Descricao { get; set; }
 
         public virtual ICollection<TB007_Receita> TB007_Receitas { get; set; }
+        public virtual ICollection<TB010_Despesa> TB010_Despesas { get; set; }
     }
 }

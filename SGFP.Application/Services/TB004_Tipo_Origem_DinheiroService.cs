@@ -43,7 +43,7 @@ namespace SGFP.Application.Services
 
         public async Task<List<TB004_Tipo_Origem_DinheiroResponseDto>> GetAll()
         {
-            var tipo = await _Tipo_Origem_DinheiroRepository.GetAllAsync();
+            var tipo = await _Tipo_Origem_DinheiroRepository.ObteTodosComRelacionamento();
             return _mapper.Map<List<TB004_Tipo_Origem_DinheiroResponseDto>>(tipo);
 
         }

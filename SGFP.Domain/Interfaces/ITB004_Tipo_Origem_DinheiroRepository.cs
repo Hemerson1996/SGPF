@@ -9,5 +9,6 @@ namespace SGFP.Domain.Interfaces
 {
     public interface ITB004_Tipo_Origem_DinheiroRepository:IBaseRepository<TB004_Tipo_Origem_Dinheiro>
     {
-    }
+        Task<List<TB004_Tipo_Origem_Dinheiro>> ObteTodosComRelacionamento();
+       }
 }

@@ -122,15 +122,27 @@ namespace SGFP.Infrastructure.Migrations
             modelBuilder.Entity("SGFP.Domain.Entities.TB007_Receita", b =>
                 {
                     b.Property<int>("receita_Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("RECEITA_ID");
 
-                    b.Property<int>("categoriaReceita_Id")
-                        .HasColumnType("int")
-                        .HasColumnName("CATEGORIA_RECEITA_ID");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("receita_Id"));
+
+                    b.Property<bool>("ativo")
+                        .HasColumnType("bit")
+                        .HasColumnName("ATIVO");
+
+                    b.Property<DateTime>("data_Fim")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DATA_FIM");
+
+                    b.Property<DateTime>("data_Inicio")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DATA_INICIO");
 
                     b.Property<int>("frequencia_Id")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("FREQUENCIA_ID");
 
                     b.Property<int>("recebimento_Id")
                         .HasColumnType("int")
@@ -139,6 +151,10 @@ namespace SGFP.Infrastructure.Migrations
                     b.Property<decimal>("receita_Valor")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("RECEITA_VALOR");
+
+                    b.Property<int>("tipo_Origem_Dinheiro_Id")
+                        .HasColumnType("int")
+                        .HasColumnName("TIPO_ORIGEM_DINHEIRO_ID");
 
                     b.Property<int>("usuario_Id")
                         .HasColumnType("int")
@@ -149,6 +165,8 @@ namespace SGFP.Infrastructure.Migrations
                     b.HasIndex("frequencia_Id");
 
                     b.HasIndex("recebimento_Id");
+
+                    b.HasIndex("tipo_Origem_Dinheiro_Id");
 
                     b.ToTable("TB007_RECEITA", (string)null);
                 });
@@ -211,9 +229,21 @@ namespace SGFP.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("despesa_Id"));
 
+                    b.Property<bool>("ativo")
+                        .HasColumnType("bit")
+                        .HasColumnName("ATIVO");
+
                     b.Property<int>("categoria_Despesa_Id")
                         .HasColumnType("int")
                         .HasColumnName("CATEGORIA_DESPESA_ID");
+
+                    b.Property<DateTime>("data_Fim")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DATA_FIM");
+
+                    b.Property<DateTime>("data_Inicio")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DATA_INICIO");
 
                     b.Property<DateTime>("data_Vencimento")
                         .HasColumnType("datetime2")
@@ -229,6 +259,15 @@ namespace SGFP.Infrastructure.Migrations
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("DESPESA_VALOR");
 
+                    b.Property<int>("frequencia_Id")
+                        .HasColumnType("int")
+                        .HasColumnName("FREQUENCIA_ID");
+
+                    b.Property<int>("status_Pagamento_Id")
+                        .HasMaxLength(255)
+                        .HasColumnType("int")
+                        .HasColumnName("STATUS_PAGAMENTO_ID");
+
                     b.Property<int>("usuario_Id")
                         .HasColumnType("int")
                         .HasColumnName("USUARIO_ID");
@@ -236,6 +275,10 @@ namespace SGFP.Infrastructure.Migrations
                     b.HasKey("despesa_Id");
 
                     b.HasIndex("categoria_Despesa_Id");
+
+                    b.HasIndex("frequencia_Id");
+
+                    b.HasIndex("status_Pagamento_Id");
 
                     b.ToTable("TB010_DESPESA", (string)null);
                 });
@@ -355,6 +398,29 @@ namespace SGFP.Infrastructure.Migrations
                     b.ToTable("TB014_ITEM_COMPRA", (string)null);
                 });
 
+            modelBuilder.Entity("SGFP.Domain.Entities.TB015_Status_Pagamentos", b =>
+                {
+                    b.Property<int>("status_Pagamento_Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("STATUS_PAGAMENTO_ID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("status_Pagamento_Id"));
+
+                    b.Property<string>("status_Pagamento_Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("STATUS_PAGAMENTO_NOME");
+
+                    b.Property<bool>("status_Pagamento_Status")
+                        .HasColumnType("bit")
+                        .HasColumnName("STATUS_PAGAMENTO_STATUS");
+
+                    b.HasKey("status_Pagamento_Id");
+
+                    b.ToTable("TB015_STATUS_PAGAMENTO", (string)null);
+                });
+
             modelBuilder.Entity("SGFP.Domain.Entities.TB004_Tipo_Origem_Dinheiro", b =>
                 {
                     b.HasOne("SGFP.Domain.Entities.TB003_Categoria_Receita", "TB003_Categoria_Receita")
@@ -380,13 +446,13 @@ namespace SGFP.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("SGFP.Domain.Entities.TB003_Categoria_Receita", "TB003_Categoria_Receitas")
-                        .WithMany("T007_Receitas")
-                        .HasForeignKey("receita_Id")
+                    b.HasOne("SGFP.Domain.Entities.TB004_Tipo_Origem_Dinheiro", "TB004_Tipo_Origem_Dinheiros")
+                        .WithMany("TB007_Receitas")
+                        .HasForeignKey("tipo_Origem_Dinheiro_Id")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("TB003_Categoria_Receitas");
+                    b.Navigation("TB004_Tipo_Origem_Dinheiros");
 
                     b.Navigation("TB005_Recebimentos");
 
@@ -407,12 +473,28 @@ namespace SGFP.Infrastructure.Migrations
             modelBuilder.Entity("SGFP.Domain.Entities.TB010_Despesa", b =>
                 {
                     b.HasOne("SGFP.Domain.Entities.TB008_Categoria_Despesa", "TB008_Categoria_Despesas")
-                        .WithMany("TB011_Despesas")
+                        .WithMany("TB010_Despesas")
                         .HasForeignKey("categoria_Despesa_Id")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("SGFP.Domain.Entities.TB006_Frequencia", "TB006_Frequencia")
+                        .WithMany("TB010_Despesas")
+                        .HasForeignKey("frequencia_Id")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("SGFP.Domain.Entities.TB015_Status_Pagamentos", "TB015_Status_Pagamento")
+                        .WithMany("TB010_Despesas")
+                        .HasForeignKey("status_Pagamento_Id")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("TB006_Frequencia");
+
                     b.Navigation("TB008_Categoria_Despesas");
+
+                    b.Navigation("TB015_Status_Pagamento");
                 });
 
             modelBuilder.Entity("SGFP.Domain.Entities.TB013_Item_Produto_Compra", b =>
@@ -455,9 +537,12 @@ namespace SGFP.Infrastructure.Migrations
 
             modelBuilder.Entity("SGFP.Domain.Entities.TB003_Categoria_Receita", b =>
                 {
-                    b.Navigation("T007_Receitas");
-
                     b.Navigation("TB004_Tipo_Origem_Dinheiros");
+                });
+
+            modelBuilder.Entity("SGFP.Domain.Entities.TB004_Tipo_Origem_Dinheiro", b =>
+                {
+                    b.Navigation("TB007_Receitas");
                 });
 
             modelBuilder.Entity("SGFP.Domain.Entities.TB005_Recebimento", b =>
@@ -468,13 +553,15 @@ namespace SGFP.Infrastructure.Migrations
             modelBuilder.Entity("SGFP.Domain.Entities.TB006_Frequencia", b =>
                 {
                     b.Navigation("TB007_Receitas");
+
+                    b.Navigation("TB010_Despesas");
                 });
 
             modelBuilder.Entity("SGFP.Domain.Entities.TB008_Categoria_Despesa", b =>
                 {
                     b.Navigation("TB009_Tipo_Despesa");
 
-                    b.Navigation("TB011_Despesas");
+                    b.Navigation("TB010_Despesas");
                 });
 
             modelBuilder.Entity("SGFP.Domain.Entities.TB011_Categoria_Produto_Compra", b =>
@@ -492,6 +579,11 @@ namespace SGFP.Infrastructure.Migrations
             modelBuilder.Entity("SGFP.Domain.Entities.TB013_Item_Produto_Compra", b =>
                 {
                     b.Navigation("TB014_Item_Compras");
+                });
+
+            modelBuilder.Entity("SGFP.Domain.Entities.TB015_Status_Pagamentos", b =>
+                {
+                    b.Navigation("TB010_Despesas");
                 });
 #pragma warning restore 612, 618
         }

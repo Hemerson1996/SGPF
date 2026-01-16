@@ -1,4 +1,5 @@
-﻿using SGFP.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using SGFP.Domain.Entities;
 using SGFP.Domain.Interfaces;
 using SGFP.Infrastructure.Context;
 using System;
@@ -13,6 +14,14 @@ namespace SGFP.Infrastructure.Repository
     {
         public TB004_Tipo_Origem_DinheiroRepository(AppSGPFContext context) : base(context)
         {
+            
+        }
+
+        public async Task<List<TB004_Tipo_Origem_Dinheiro>> ObteTodosComRelacionamento()
+        {
+            return await _dbSet
+                .Include(x=>x.TB003_Categoria_Receita)
+                .ToListAsync();
         }
     }
 }

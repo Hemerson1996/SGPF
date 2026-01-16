@@ -11,9 +11,14 @@ namespace SGFP.Application.DTOs.Response
     {
         public int receita_Id { get; set; }
         public int usuario_Id { get; set; }
-        public int categoriaReceita_Id { get; set; }
+        public int Tipo_Origem_Dinheiro_Id { get; set; }
+        public TB004_Tipo_Origem_DinheiroResponseDto TB004_Tipo_Origem_DinheiroResponseDtos { get; set; }
         public int recebimento_Id { get; set; }
         public int frequencia_Id { get; set; }
-        public double receita_Valor { get; set; }
+        public decimal receita_Valor { get; set; }
+
+        public DateTime data_Inicio { get; set; }
+        public DateTime? data_Fim { get; set; }
+        public bool ativo { get; set; }
     }
 }

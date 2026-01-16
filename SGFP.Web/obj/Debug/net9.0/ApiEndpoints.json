@@ -1,5 +1,189 @@
 [
   {
+    "ContainingType": "SGFP.Web.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SGFP.Application.DTOs.Request.LoginRequestDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_DespesaController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Categoria_Despesa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_DespesaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Categoria_Despesa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB008_Categoria_DespesaRequestDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_DespesaController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Categoria_Despesa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_DespesaController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Categoria_Despesa/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB008_Categoria_DespesaRequestDtos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_DespesaController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Categoria_Despesa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_Produto_CompraController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Categoria_Produto_Compra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_Produto_CompraController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Categoria_Produto_Compra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB011_Categoria_Produto_CompraRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_Produto_CompraController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Categoria_Produto_Compra/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_Produto_CompraController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Categoria_Produto_Compra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB011_Categoria_Produto_CompraRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Categoria_Produto_CompraController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Categoria_Produto_Compra/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SGFP.Web.Controllers.v1.Categoria_ReceitaController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Categoria_Receita",
@@ -79,6 +263,95 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SGFP.Web.Controllers.DashBoardController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/DashBoard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.DespesaController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Despesa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.DespesaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Despesa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB010_DespesaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.DespesaController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Despesa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.DespesaController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Despesa/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB010_DespesaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.DespesaController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Despesa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SGFP.Web.Controllers.v1.FrequenciaController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Frequencia",
@@ -145,6 +418,85 @@
     "ContainingType": "SGFP.Web.Controllers.v1.FrequenciaController",
     "Method": "Delete",
     "RelativePath": "api/v1/Frequencia/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Item_Produto_CompraController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Item_Produto_Compra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Item_Produto_CompraController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Item_Produto_Compra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB013_Item_Produto_CompraRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Item_Produto_CompraController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Item_Produto_Compra/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Item_Produto_CompraController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Item_Produto_Compra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB013_Item_Produto_CompraRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Item_Produto_CompraController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Item_Produto_Compra/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -316,6 +668,164 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SGFP.Web.Controllers.v1.Status_PagamentoController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Status_Pagamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Status_PagamentoController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Status_Pagamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB015_Status_PagamentoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Status_PagamentoController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Status_Pagamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Status_PagamentoController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Status_Pagamento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB015_Status_PagamentoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Status_PagamentoController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Status_Pagamento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Tipo_DespesaController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Tipo_Despesa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Tipo_DespesaController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Tipo_Despesa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB009_Tipo_DespesaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Tipo_DespesaController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Tipo_Despesa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Tipo_DespesaController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Tipo_Despesa/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB009_Tipo_DespesaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Tipo_DespesaController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Tipo_Despesa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SGFP.Web.Controllers.v1.Tipo_Origem_DinheiroController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Tipo_Origem_Dinheiro",
@@ -382,6 +892,85 @@
     "ContainingType": "SGFP.Web.Controllers.v1.Tipo_Origem_DinheiroController",
     "Method": "Delete",
     "RelativePath": "api/v1/Tipo_Origem_Dinheiro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Unidade_Produto_CompraController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Unidade_Produto_Compra",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Unidade_Produto_CompraController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Unidade_Produto_Compra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB012_Unidade_Produto_CompraResquesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Unidade_Produto_CompraController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Unidade_Produto_Compra/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Unidade_Produto_CompraController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Unidade_Produto_Compra/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "SGFP.Application.DTOs.Request.TB012_Unidade_Produto_CompraResquesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SGFP.Web.Controllers.v1.Unidade_Produto_CompraController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Unidade_Produto_Compra/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

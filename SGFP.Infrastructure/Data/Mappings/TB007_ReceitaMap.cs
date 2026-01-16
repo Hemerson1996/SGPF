@@ -24,12 +24,12 @@ namespace SGFP.Infrastructure.Data.Mappings
              .HasColumnName("USUARIO_ID")
              .IsRequired();
 
-            builder.Property(x => x.categoriaReceita_Id)
-             .HasColumnName("CATEGORIA_RECEITA_ID")
+            builder.Property(x => x.tipo_Origem_Dinheiro_Id)
+             .HasColumnName("TIPO_ORIGEM_DINHEIRO_ID")
              .IsRequired();
 
-            builder.Property(x => x.categoriaReceita_Id)
-           .HasColumnName("CATEGORIA_RECEITA_ID")
+            builder.Property(x => x.frequencia_Id)
+           .HasColumnName("FREQUENCIA_ID")
            .IsRequired();
 
             builder.Property(x => x.recebimento_Id)
@@ -41,9 +41,22 @@ namespace SGFP.Infrastructure.Data.Mappings
              .HasColumnType("decimal(18,2)")
              .IsRequired();
 
-            builder.HasOne(x=> x.TB003_Categoria_Receitas)
-                .WithMany(x=>x.T007_Receitas)
-                .HasForeignKey(x=>x.receita_Id)
+
+            builder.Property(x => x.data_Inicio)
+             .HasColumnName("DATA_INICIO")
+             .IsRequired();
+
+            builder.Property(x => x.data_Fim)
+             .HasColumnName("DATA_FIM")
+             .IsRequired();
+
+            builder.Property(x => x.ativo)
+            .HasColumnName("ATIVO")
+            .IsRequired();
+
+            builder.HasOne(x=> x.TB004_Tipo_Origem_Dinheiros)
+                .WithMany(x=>x.TB007_Receitas)
+                .HasForeignKey(x=>x.tipo_Origem_Dinheiro_Id)
                 .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasOne(x => x.TB006_Frequencias)

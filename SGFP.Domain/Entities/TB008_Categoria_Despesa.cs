@@ -13,7 +13,7 @@ namespace SGFP.Domain.Entities
         public string categoria_Despesa_Descricao { get; set; }
 
         public virtual ICollection<TB009_Tipo_Despesa> TB009_Tipo_Despesa { get; set; }
-        public virtual ICollection<TB010_Despesa> TB011_Despesas { get; set; }
+        public virtual ICollection<TB010_Despesa> TB010_Despesas { get; set; }
 
     }
 }
